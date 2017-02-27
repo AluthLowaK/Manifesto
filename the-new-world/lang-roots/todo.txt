@@ -1,0 +1,48 @@
+http://www.angmohdan.com/the-root-of-all-human-languages/
+
+By finding patterns like these, different languages can be grouped together as members of a language family.
+
+There are three main language families:
+
+Indo-European (Includes English)
+Sino-Tibetan (Includes Chinese)
+Afro-Asiatic (Includes Arabic)
+
+English -> Spanish
+
+
+
+
+Hello -> Hola
+Love Amor
+Good Bueno
+God Dios
+Devil Diablo
+angel ángel
+faith fe
+trust confianza / los trust
+wisdom sabiduría
+gold oro
+Heaven Ci Elo
+Hell infierno
+Silver Plata
+world mundo
+dog perro
+
+
+
+
+
+
+
+
+3 tree
+with leafs
+we know the leafs today
+
+
+further research (or ML project required for mapping TBD)
+
+first version lets use the unicode bytecode value
+
+
