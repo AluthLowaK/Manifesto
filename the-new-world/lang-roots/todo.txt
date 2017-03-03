@@ -30,7 +30,8 @@ world mundo
 dog perro
 
 
-
+2 diablo
+11 diosis
 
 
 
