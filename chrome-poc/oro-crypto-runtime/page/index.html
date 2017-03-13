@@ -13,24 +13,45 @@
 <script src="init.js"></script>
 
 <body>
-<h1>JavaScript RSA Encryption Demo</h1>
+<h1>Read, Share, Earn</h1>
 
-<form id="login-form" name="login" action="" method="get" accept-charset="utf-8" style="display: none;">
+
+<form id="register-form" name="register" action="" method="post" accept-charset="utf-8" style="display: none;">
+    <h1>Register</h1>
     <ul>
         <li><label>Email</label>
-            <input type="email" name="usermail" placeholder="yourname@email.com" required></li>
+            <input type="email" name="usermail" placeholder="yourname@email.com" required id="registerEmail"></li>
         <li><label>Password</label>
-            <input type="password" name="password" placeholder="password" required></li>
+            <input type="password" name="password" placeholder="password" required id="registerPass"></li>
         <li>
+            <input id="register-btn" type="button" value="Register" /></li>
+    </ul>
+</form>
+
+<form id="login-form" name="login" action="" method="post" accept-charset="utf-8" style="display: none;">
+    <h1>Login</h1>
+    <ul>
+        <li><label>Email</label>
+            <input type="email" name="usermail" placeholder="yourname@email.com" required id="loginEmail"></li>
+        <li><label>Password</label>
+            <input type="password" name="password" placeholder="password" required id="loginPass"></li>
+        <li>
+
             <input id="login-btn" type="button" value="Login" /></li>
     </ul>
 </form>
 
-<div id="newWallet">
-    <input id="createWallet" type="button" value="Create Wallet" />
+<div id="dashboard-form" style="display: none;">
 
-    <div id="waddr"></div>
+    <h1>Dashboard</h1>
 
+    <div>cid: <span id="span-cid"></span>, user: <span id="span-user"></span></div>
+
+    <input id="create-wallet-btn" type="button" value="Create Wallet" />
+
+    <div id="div-waddr"></div>
+
+    <input id="logout-btn" type="button" value="Logout" />
 </div>
 
 </body>
