@@ -58,6 +58,12 @@ Website owners can register a website and provide a coin address
 Websites who's owners have not registered will be ad-blocked and revenue will be sent to a fund that is to be sent to a charity
 
 
+search system
+peer to peer messaging
+peer to peer sharing
+category based message broadcast
+investments in a stock market where popularity of the property dictates its stock value allowing the content to be easily found
+
 
 <div>
 
