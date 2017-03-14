@@ -164,7 +164,7 @@ var displayDashboardForm = function (cid, user, canCreateWallet) {
 function register(cid, user, pass, cb) {
     var xhr = new XMLHttpRequest();
     var data = JSON.stringify({cid: cid, user: user, pass: pass});
-    xhr.open("POST", "https://api.oro.world:3000/register", true);
+    xhr.open("POST", "https://mockup.oro.world:3000/register", true);
     xhr.setRequestHeader("Content-type", "application/json");
     xhr.onreadystatechange = function() {
         if (xhr.readyState == 4) {
@@ -179,7 +179,7 @@ function register(cid, user, pass, cb) {
 function login(cid, user, pass, cb) {
     var xhr = new XMLHttpRequest();
     var data = JSON.stringify({cid: cid, user: user, pass: pass});
-    xhr.open("POST", "https://api.oro.world:3000/login", true);
+    xhr.open("POST", "https://mockup.oro.world:3000/login", true);
     xhr.setRequestHeader("Content-type", "application/json");
     xhr.onreadystatechange = function() {
         if (xhr.readyState == 4) {
@@ -195,7 +195,7 @@ function login(cid, user, pass, cb) {
 function createWallet(cid, cb) {
     var xhr = new XMLHttpRequest();
     var data = JSON.stringify({cid: cid});
-    xhr.open("POST", "https://api.oro.world:3000/wallet", true);
+    xhr.open("POST", "https://mockup.oro.world:3000/wallet", true);
     xhr.setRequestHeader("Content-type", "application/json");
     xhr.onreadystatechange = function() {
         if (xhr.readyState == 4) {
